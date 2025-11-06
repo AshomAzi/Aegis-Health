@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f6fbff;
+    padding: 3% 2% 0;
+}
+
+.btn {
+    border: 1px solid #929090;
+    outline: none;
+    background-color: #0b78a8;
+    color: #eaf3f8;
+}
+
+/* Header section */
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #eaf3f8;
+    border-radius: 50px;
+}
+
+header .content a{
+    font-weight: 700;
+    font-size: 32px;
+    color: #0b3140;
+}
+
+
+header .navigation nav {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+header .navigation nav a{
+    display: flex;
+    align-items: center;
+    color: #0b3140;
+}
+
+.SignUp {
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.SignUp p {
+    color: #eaf3f8;
+}
+
+
+
+/* Hero Section */
+.hero {
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .content {
+    padding: 0 50px 0 0;
+}
+
+.hero .content .search h1 {
+    font-size: 45px;
+}
+
+.hero .content .search p {
+    font-size: 18px;
+    margin: 25px 0;
+    opacity: 0.5;
+}
+
+.hero .content .info {
+    color: #0c6b3d;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.hero .content .info p {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #eaf3f8;
+}
+
+.hero form  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.hero form input {
+    width: 200px;
+    height: 40px;
+    padding: 0 5px;
+    border: 1px solid #929090;
+    border-radius: 10px;
+    outline: none;
+}
+
+.hero form button {
+    width: 100px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.hero form button:hover{
+    cursor: pointer;
+}
+
+.hero form .searches{
+    opacity: 0.5;
+}
+
+.hero .img {
+    background-color: #eaf3f8;
+    padding: 40px;
+    border-radius: 85px;
+}
+
+.hero .img img {
+    width: 450px;
+    border-radius: 60px;
+}
+
+.hero .img .trust {
+    font-size: 15px;
+    margin: 20px auto 0;
+    color: #0c6b3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
