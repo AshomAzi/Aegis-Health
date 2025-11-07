@@ -10,11 +10,16 @@ body {
     padding: 3% 2% 0;
 }
 
+h1, h2, h3, h4 {
+    color: #0b3140;
+}
+
 .btn {
-    border: 1px solid #929090;
+    border: none;
     outline: none;
     background-color: #0b78a8;
     color: #eaf3f8;
+    cursor: pointer;
 }
 
 /* Header section */
@@ -28,6 +33,7 @@ header {
     padding: 10px 15px;
     background-color: #eaf3f8;
     border-radius: 50px;
+    z-index: 99;
 }
 
 header .content a{
@@ -150,3 +156,101 @@ header .navigation nav a{
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* consultants */
+
+.consultants {
+    margin: 50px auto 20px;
+    padding: 30px 0 20px;
+}
+
+.consultants  h2 {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.consultants .docs .doc-card {
+    width: 380px;
+    padding: 20px;
+    background-color: #eaf3f8;
+    border-radius: 50px;
+}
+
+.consultants .doctors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consultants .user .main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    margin: 0 0 15px;
+}
+
+.consultants .user .main .info {
+    line-height: 25px;
+}
+
+.consultants .docs .doc-card .user img {
+    width: 80px;
+    border: 2px solid #0c6b3d;
+    border-radius: 100%;
+}
+
+.consultants .docs .doc-card .rate {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    column-gap: 5px;
+    margin: 0 0 15px;
+    color: #0c6b3d;
+}
+
+.consultants .docs .doc-card .rate img {
+    width: 20px;
+}
+
+.consultants .docs .doc-card .btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2.5px;
+    border-radius: 30px;
+}
+
+
+/* Booking */
+
+.book {
+    background-color: #0c6b3d;
+    border-radius: 60px;
+    margin: 50px 0;
+    padding: 25px;
+}
+
+.book form {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.book .note * {
+    line-height: 25px;
+    color: #eaf3f8;
+}
+
+.book .btn {
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+
