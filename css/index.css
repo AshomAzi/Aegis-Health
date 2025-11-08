@@ -432,6 +432,11 @@ footer * {
     line-height: 28px;
 }
 
+footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
 footer p {
     width: 500px;
 }
