@@ -5,8 +5,15 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f6fbff;
+}
+
+.body {
     padding: 3% 2% 0;
 }
 
@@ -36,10 +43,20 @@ header {
     z-index: 99;
 }
 
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header .content a{
     font-weight: 700;
     font-size: 32px;
     color: #0b3140;
+}
+
+header .content a img, footer table td img{
+    width: 25px;
 }
 
 
@@ -58,7 +75,7 @@ header .navigation nav a{
 .SignUp {
     color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 .SignUp p {
@@ -124,9 +141,9 @@ header .navigation nav a{
 
 .hero form button {
     width: 100px;
-    padding: 8px;
+    padding: 10px;
     font-size: 17px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .hero form button:hover{
@@ -167,7 +184,7 @@ header .navigation nav a{
 
 .consultants  h2 {
     padding: 30px 0;
-    font-size: 30px;
+    font-size: 1.8em;
 }
 
 .consultants .docs .doc-card {
@@ -181,6 +198,8 @@ header .navigation nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 
 .consultants .user .main {
@@ -252,5 +271,181 @@ header .navigation nav a{
     align-items: center;
     column-gap: 5px;
 }
+
+/* Services */
+
+.services {
+    margin: 100px 0 50px;
+}
+
+.services h2 {
+    font-size: 1.8em;
+    margin: 50px 0 10px;
+    padding: 50px 0 10px;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.services .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: 250px;
+    padding: 25px 20px;
+    background-color: #eaf3f8;
+    border-radius: 10px;
+}
+
+.services .card img, h3 {
+    margin-bottom: 20px;
+}
+
+.services .card p {
+    line-height: 22px;
+}
+
+/* About Us */
+
+.about {
+    padding: 30px 20px 20px;
+}
+
+.about h2 {
+    font-size: 1.8em;
+    margin: 30px 0 20px;
+}
+
+.about p {
+    line-height: 25px;
+    width: 1080px;
+}
+
+.about .sponsors .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.about .sponsors img {
+    margin: 50px 0;
+    width: 150px;
+}
+
+/* Connect */
+
+.connect {
+    background-color: #eaf3f8;
+    border-radius: 20px;
+    padding: 30px 20px 20px;
+}
+
+.connect h2 {
+    font-size: 1.8em;
+    margin: 30px 0 20px;
+}
+
+.connect p {
+    margin-bottom: 10px;
+}
+
+.connect form .info {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+
+.connect form .info input {
+    padding: 0 10px;
+    width: 44vw;
+    height: 45px;
+    border: none;
+    outline: 1px solid #0b3140;
+    border-radius: 10px;
+}
+
+
+.connect form .info textarea {
+    resize: none;
+    width: 100vw;
+    padding: 20px 10px;
+    border: none;
+    outline: 1px solid #0b3140;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.connect form button {
+    width: 92vw;
+    padding: 15px 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.top {
+    position: fixed;
+    right: 20px;
+    top: 60vh;
+    bottom: 20px;
+    background-color: #0b78a8;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.top a {
+    color: #eaf3f8;
+    font-weight: 900;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    background-color: #eaf3f8;
+    padding: 3% 2%;
+    height: auto;
+}
+
+footer .foot-container .foot-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer * {
+    line-height: 28px;
+}
+
+footer p {
+    width: 500px;
+}
+
+footer table tr{
+    display: flex;
+    flex-direction: column;
+}
+
+footer table td img{
+    width: 20px;
+}
+
+
+
 
 

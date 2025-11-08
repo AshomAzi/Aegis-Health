@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,121 +9,233 @@
     <link rel="shortcut icon" href="./images/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <div class="content">
-            <a href="#">Aegis Health</a>
-        </div>
-        <div class="navigation">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Find a Doctor</a>
-                <a href="#">Services</a>
-                <a href="#">About Us</a>
-                <a href="#">Connect</a>
-                <a href="#" class="SignUp btn"><img src="./images/person.svg" alt="#"><p>SignUp/Login</p></a>
-            </nav>
-        </div>
-    </header>
-
-    <div class="hero">
-        <div class="content">
-            <div class="search">
-                <h1>Book consultations with top trusted doctors</h1>
-                <p>Search by specialty, name or availability and book a consultation in minutes.</p> 
+    <div class="body">
+        <header>
+            <div class="content">
+                <a href="#"><img src="./images/favicon_io/android-chrome-192x192.png" alt="#">Aegis Health</a>
             </div>
+            <div class="navigation">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Find a Doctor</a>
+                    <a href="#">Services</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Connect</a>
+                    <a href="#" class="SignUp btn"><img src="./images/person.svg" alt="#">
+                        <p>SignUp/Login</p>
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero">
+            <div class="content">
+                <div class="search">
+                    <h1>Book consultations with top trusted doctors</h1>
+                    <p>Search by specialty, name or availability and book a consultation in minutes.</p>
+                </div>
+                <form action="#">
+                    <input type="search" name="name" id="search" placeholder="Doctor or Specialty">
+                    <input type="search" name="location" id="search" placeholder="Location">
+                    <input type="date" name="date" id="search" placeholder="Date/Availability">
+                    <button class="btn" type="submit">Search</button>
+                    <p class="searches">Popular Searches: Cardiology, Dermatology, Dentist</p>
+                </form>
+                <div class="info">
+                    <p><img src="./images/verified.svg" alt="#">Verified doctors</p>
+                    <p><img src="./images/star_rate.svg" alt="">4.8/5 average rating</p>
+                    <p><img src="./images/date_range.svg" alt="">Same-day slots</p>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/bgNEW.jpg" alt="#">
+                <div class="trust">
+                    <p>HIPAA-ready</p>
+                    <p>Encrypted bookings</p>
+                    <p>Trusted by 50k+ patients</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="consultants">
+            <h2>Find a doctor</h2>
+            <div class="doctors">
+                <div class="docs">
+                    <form action="#">
+                        <div class="doc-card">
+                            <div class="user">
+                                <div class="main">
+                                    <img src="./images/doctor1NEW.jpg" alt="Doctor 1">
+                                    <div class="info">
+                                        <h3>Dr. Amelia Hart</h3>
+                                        <p>Cardiologist, 12 yrs of experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="rate"><img src="./images/star_rate.svg" alt="#">4.8/5 (120 reviews)</p>
+                            <button class="btn"><img src="./images/calendar_add.png" alt="#">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="docs">
+                    <form action="#">
+                        <div class="doc-card">
+                            <div class="user">
+                                <div class="main">
+                                    <img src="./images/doctor2NEW.jpg" alt="Doctor 1">
+                                    <div class="info">
+                                        <h3>Dr. Leo Petal</h3>
+                                        <p>Pediatrician, 25 yrs of experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="rate"><img src="./images/star_rate.svg" alt="#">4.9/5 (415 reviews)</p>
+                            <button class="btn"><img src="./images/calendar_add.png" alt="#">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="docs">
+                    <form action="#">
+                        <div class="doc-card">
+                            <div class="user">
+                                <div class="main">
+                                    <img src="./images/doctor3NEW.jpg" alt="Doctor 1">
+                                    <div class="info">
+                                        <h3>Dr. Derick Nguyen</h3>
+                                        <p>Dermatologist, 9 yrs of experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="rate"><img src="./images/star_rate.svg" alt="#">4.8/5 (210 reviews)</p>
+                            <button class="btn"><img src="./images/calendar_add.png" alt="#">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="book">
             <form action="#">
-                <input type="search" name="name" id="search" placeholder="Doctor or Specialty">
-                <input type="search" name="location" id="search" placeholder="Location">
-                <input type="date" name="date" id="search" placeholder="Date/Availability">
-                <button class="btn" type="submit">Search</button>
-                <p class="searches">Popular Searches: Cardiology, Dermatology, Dentist</p>
+                <div class="note">
+                    <h3>Ready to book a consultatin?</h3>
+                    <p>Choose a doctor, pick a time, and secure your consultation instantly.</p>
+                </div>
+                <button type="submit" class="btn"><img src="./images/calendar_add.png" alt="">Book a
+                    consultation</button>
             </form>
+        </div>
+
+        <div class="services">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVUlEQVR4nO2YS0gVYRTHf5XZgwRp0aYEI4iIFoEiBkX0WgTREypIgsiNi8JNEUYPiyzpQWQ7gySxRS+wB1TLJCixhQsNKqNFhKJG2bvMGwf+Ax+Xe8fr3HuHCeYPH3PP+c757vnPnPnO+QZixIgR43/FUyARodERlEgigiMQsnLOMRIxEYI7lwKXgR5gCPira4/0pSHGEth5FjA4Tp4Pyi7SRMrl06ff+4EvwD7JfZovDyGWrJy3yqcdmAOMSR6T3C7Z7CJNpFY+TcAkoE1ym+QmybUhxJKV83n5fAS6gBfAqK5d0idkF2kiNzMsbGY3EVwHPhEikWfy2Q2UARXAWl3LpE/IbqIoIkQij+WzMc38Js0/GmedBcBe4BRQD6wgCwQhclo+N9LM39K8BZgKs4HbKqLJ6XgVKCYkIvOA7/I7C8yQ3q7npLf5uSl8ZwIvnaLZDNQBDU6RHdUOWBTGTrFdf2i+v4BeXU3+A2xL43dCNs9T3PmFwF1gWDaXwiAyGahW0G5qmLxH9SQV3shuuc/ai1RcvwJT8kHEgt8A3AM+j7P12l29A6xzSE1TgL8zCPCd1pmfayIrgVdpAr4InFEqeGnhDiuShgK94JnUivfyLcklkcPO+/AWOKJ68VN6r2UvlWz6pcAh4LX87CVHrb49lcJxnvw3+RXnishOZydpSArgmuYaJTdKNr2HQr3g3p31iBnRdFjidNcZIxHCsK14ulJrSLo1PjGtlk1v1IjYU0AvrskflD7pUJCP1MolCvX+2BZd6WO3XjGZ7dQoEjFcSHpKybAn1S+bk1FLLRsPnUC7pdvsc/rsnOgd6giRjBd4teQRYJkTS6VTaM0m78gkHf1srNJf0XyLo2+RrtmnxYkUEUOV5lsdXat0u8gTSnTGGAmYUtbpLk5as86HSF2+SKTqnzIZ1vjtSEqTClX+sRR3v0q6MdmYbc7gnfYe6EAVBHbgqnF2K6/aH0hhexD44dh1y9c7vAWGl05BSWxx6oKNAfVkft+GS2Uz4Pj1p9muM8ZE02nAaSuOOfpOnSr9ut5kFMqn01nnKCERsa8hqClM6BBlqZEtarSWrbmKEHFff3o8h2vWa007oYYG77NpPsZwmETy2fo8CZNIjBgxYpAz/APyvF7mo+mI+gAAAABJRU5ErkJggg=="
+                        alt="telemedicine">
+                    <h3>Telemedicine</h3>
+                    <p>Consult with doctors remotely via video calls for non-emergency medical issues.</p>
+                </div>
+                <div class="card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC4klEQVR4nO2aS0hVQRjHfzdDyiyjB1S0KCqwh7TpQbYpiahFq4KotkWLoE0LQYICKXPTKsoIIheFm4qix07K6EHUooKsXaCWJMTFUCTLKyP/A8Ples/jnnvO3PAPw/Ee5vt/33/OPL6ZEWYQCNVAO/AdyMVQBoA28SaKSzEJyOWVi0kLGZDjHTHxNVpfJlF4Leg65xRWAi1ANzAIjAOvKknIbKAVGCvQh1/6OC3W/z0Ueme/j03EPREaIR3APqAemB/AqTNCWqxBt6lIPae71kJgWGR7k3JaDs7DIuoJUNdpIddF1FyCU78xkUtijDwTUVOlC3kvoi2V3rU+iaghSafl4OwW0a4QuZbJkeLATvH1x0F2R2RHA9Rtm6bPm8bwUAU8D5n9XohDyHmRmacfqiXG+zJ2WaU6x0II6JeIWPYjB0T6OKL9Q9kfBGoVnPl9hISxTo5/ApkS1qGTQJf+fgPMImHckPOveQliUNyW/aCew0o2E4eXZ62JaP/N6vO/gd2khFEFsaSEzOCHZr+1pIgXEnIu4hhxBk1W1xjVOlCx2A/8kpi6kLavra2wE+iRkO0hbFbLZgiHcFlBmZU7KM7K5j4OoVFBZYGlAY+NsrLZg2PoUmB+fd7Mbl9UtxMHUWvNYMWm4oxVbw4OIhNBiJNrT+Z/EVIVQYiTC2izgusLULdPdc/gEOqUzk+oHAp4sOfVN3uSBaSIZTqBH1LrmiuEUyHsT8vGW91bxZkYGoCbeVcI5g5kawSubcq3PJ4xcQc5XoqMDbo+mJBT83wS02bIZNFP87jvAuuJEfOAq8BfORnR7/oyNdY1+cjJ5xWgplTiFdZp4h8JWB5PzL5+O+TT+P6od5Fno14RfS53v50Gm628rDfq7NYpgg/AItLDYqtX3AprbK7Q/unTpnI8U2DsjCumjYRAu1rgAe7gUZT/dHgno+O4gxOK6W0YI2/35mLJBhVR40CwfmVupG86A9LBJCrhs5yVNlxZAAAAAElFTkSuQmCC"
+                        alt="consultation">
+                    <h3>In-Person Consultation</h3>
+                    <p>Schedule face-to-face appointments with specialists at our partner clinics.</p>
+                </div>
+                <div class="card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJ0lEQVR4nO2ZS2gWVxTHf1iVEg3FUPHdqm1jNLgRRNyoCyuVtKKlhNYuFWwqasAYUXClC4kLNy4EizS2PlrbbHxsxCItDV2UgtqFGkWqUt+vxDZGbT458B+4DDPz3flm0u8L5g8Xknsec/5zzz333PlgCEN4JfAhcBp4AvTo7wYGGXYAhZixPYvj94ErwHVgqYe+vbkbsllcwkpYwE+BFmCCxibNFdKszK8Jb+Sah/31BPtfitj+JL2WCFmrZJZmXigMIBEbSeiWzoQI2UTJutMSCbBYaWIkPvCwXyoy4dQqO5G84OP3tHQ2Rcg2l5paecPHb4Oz2Vu1ChNFoi/tZi8nEVRiC3mU33ITMTQohXqyHIiVQCQXlJPISKAROARcUIvyRH8flMx0vNCjB1aTH6rl03zH4WOV7KQzyMZlYIXPQ7tkUJsfD2bI56UI2TCgzQn0LLAemAWM0qgHNgDnHL2dso3FSSl+liORz+XzeISszSm5a4oENwxocvouIxOLdVI6Qn74Xj7XRqRTQGJhCn+LHDLL45SmAM90AE0nO96VL/M52Zkf6ewJWwkXtUCH2hEbPwLvhXS+lK1thRFxD98npR9yINIhX3tD843OnnDTycjej9jk94BJjt5rwHnJPklalYdS2piBRIt83A8FgUpsQRvbxVHNH5ONETuhue9Cus2a/zYpiI+AfuBFiWRaZNsfcypfVBBWnaI64EmhF2tzj0K69Zq3cyYRXyiYgvL0Hc89EaTTi4j8DwccPq9ua35yBBGTRZ1PXq39cidn+1SBVgJ1wGiNOpXYo9rUQU4vK+GkP6z5EyLwlnMkHErhJxJjgf1OK500TOcr4M0iPuMCsEp5M8Lv38C0rERcQs2qZpcdJ12a2+BBwCeAqUC7o9OuubR+vPGfnFgpTAufAAo56RRFr5xUDXYiN+XENmVaFAugSvLejH688LuczC/BNghgCzA+Qj5T8qsx9uNlmwuRoFTaeZMW7t3jmYrFbEf+qWRWel3Mlm5Q5gvylQlNCfW9GKy/WhIKapsjPxDzaWhbiPySYvcSH9SqBbGTdUwGP8E3q136v8Y5+e1S5mKX5s0mV5yMeJtpsSbUIW+PSSukU2o6J2KBHP8T0QD6YqV82AeGueoO+mOKyEHpmk3u2C/n19SRUuLPCXa/uFvkY9wxya07zx2vA6ecLyWb1Uymubq6fVVHwgY+I500V+NUsKvrHqWEPegx8A2wCpgHjNMXEcMburqukM0d2ZjtbmB4wnP+kO4cBhjz1IIHfZjv+NnzLXdJP3yHHzDYxWg18DXwG3DLKakP1T1bvm9Nua9uy4etcEVibMzvImH8m6FR/V8QrFbS/hghnedUMB4oyKQOoUY6plux+EtBxt0EDW9Lx3QrFn+mqHDnqWB0piDSWe5gh/DK4SVCctOkW2hIAgAAAABJRU5ErkJggg=="
+                        alt="health-checkup">
+                    <h3>Health Check-ups</h3>
+                    <p>Comprehensive health screenings and preventive care services.</p>
+                </div>
+                <div class="card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD7UlEQVR4nO2ZW6jNWRzHP5wj4RxGLmMQMVLumiGNQcgl4ZB40ZAH5YXDIU1TkxkPGDRqmgfxQDi55FYzLx7kwWlMEQ8uhzmFkCh3x92MrV99/7Xa9v7fztr7nKb9qX/7v/f6rd9v/dblt35rbShRosUyAlgB7AH+Au4Bj4EM8E7v14ATwFZgHtCJFsLnwHrguhqc9HkL/AFMA1o1hwMVwK/AK6dRt4BdwFJgHNAT+EzybYDOwGBgJrAOOAm8d+qfAUYX04lvgdsy/i9wSA1P06NdgLXAXel7LydbUWAWazoEPTjMk94OwC/qGNO9X6NYEL4D/pOhzUBZAWxMAZ7Kxt5CjMw3wBsZWENhGQO8lq3VPhXbsN+U4m0Uh4XAB3Vef19KN8uJc0B5hKzN6/lALXAVeAE06r1WZXHn/k7ZPejBB3oAL9U7X0XIzgEaYuwdDZKN4gt1hNke1VRHfpLxIyEyrYFNTkMvA6uAIZqWHfReA1yRjDVuo+qGsUHy25vqSLBjTwqRCZywsLw8IppZWbVSloycCWOA5B42JRx/KSX3Q8LgHPXuW4XObCznqsvx+1Q5Y3WrItpxTu2YTkqWSMHhPOVtnDVhI5GLYLrlYqWzZsJ6e53kbJqnYpcU2FTIxXxnTZSlcMQiYL3KTVc+ZknGkstUnJECy61yUatyW9ikcARteFa+L0SmtzPF25KCf6RgYJ7yayq3jDatI0NVbrrCqJfcz6TggSp3zVP+XOWVzsKOew4JAkClvpuuMMY7O/2gpI4EZ4XymI7UJXDkdEJHjB1OJyRKJoMsNDgc5ZtattkVemqhdtyT/DIScEmVRkcsdtux0zqyJsZid1kg+SdKYWKxW5W+jwi/V5oQfq/GCL/Z/Bmxv31ClSpciLEhVqdwpCbmhphNH2d9ziYGbTWEVmF4RIryTmlHNnXOwnaZliBFyUW1c7SIxe+qcDREZqNzd7Uy4sxSrpGImzRGJZOPiElPXflYz32dR6a1GvTBWTOrFZEq9AzVwq5PmMZn0w74AXgmPQdIwFZVOhuRolclOFilmU6LnGsoe44nvams1OVbnMuA7KNuo556hdgkR91sAgfOA5NJyQwpaVQS1xxk9CSdjp9wSIrssznIRGyusemtEcn4uAxoTkeMLVJmu34xKZNdu1L1Qn9dm77S7Xqx6CdH7vhUekpK7Y+aYlHjhFxv/Cilv1EcejiHvLk+FU+U0r8pPH2Bi7J30vftfDBfb3jSN0EpTC+gPdARGKlbxiAVsc21O56pkHK7l/VBVEpzDOjmyVZe4z513dUI2L+/DQrxYz3ZiDTe0nQlpuRIDkqO+OB/40iJEsTjI2BChzoVDDrOAAAAAElFTkSuQmCC"
+                        alt="mental-health">
+                    <h3>Mental Health Services</h3>
+                    <p>Access counseling and therapy sessions with licensed mental health professionals.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>About Us</h2>
             <div class="info">
-                <p><img src="./images/verified.svg" alt="#">Verified doctors</p>
-                <p><img src="./images/star_rate.svg" alt="">4.8/5 average rating</p>
-                <p><img src="./images/date_range.svg" alt="">Same-day slots</p>
+                <h3>Our mission, values and medical adversory board.</h3>
+                <p>We connect patients with trusted health care professionals through secure, simple bookings. We
+                    provide
+                    you with verified professionals and ensure data privacy and patient first design. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Delectus repudiandae sed incidunt, eius adipisci consequuntur
+                    sit accusantium officia error veritatis sint blanditiis perferendis velit iure.</p>
+            </div>
+            <div class="sponsors">
+                <div class="icons">
+                    <img src="./images/amwell.png" alt="Amwell">
+                    <img src="./images/HealthTap.png" alt="HealthTap">
+                    <img src="./images/oracle.png" alt="Oracle">
+                    <img src="./images/Updox.png" alt="Updox">
+                    <img src="./images/Zocdoc.png" alt="Zocdoc">
+                </div>
             </div>
         </div>
-        <div class="img">
-            <img src="./images/bgNEW.jpg" alt="#">
-            <div class="trust">
-                <p>HIPAA-ready</p>
-                <p>Encrypted bookings</p>
-                <p>Trusted by 50k+ patients</p>
-            </div>
-            
+
+        <div class="connect">
+            <h2>Connect</h2>
+            <p>Get in touch with our support team</p>
+            <form action="#">
+                <div class="info">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" placeholder="Your email" required>
+                    <textarea name="message" id="message" required placeholder="How can we help?"></textarea>
+                </div>
+                <button class="btn" type="submit">Submit</button>
+            </form>
         </div>
-    </div>
-    
-    <div class="consultants">
-        <h2>Find a doctor</h2>
-        <div class="doctors">
-            <div class="docs">
-                <form action="#">
-                    <div class="doc-card">
-                        <div class="user">
-                            <div class="main">
-                                <img src="./images/doctor1NEW.jpg" alt="Doctor 1">
-                                <div class="info">
-                                    <h3>Dr. Amelia Hart</h3>
-                                    <p>Cardiologist, 12 yrs of experience</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="rate"><img src="./images/star_rate.svg" alt="#">4.8/5 (120 reviews)</p>
-                        <button class="btn"><img src="./images/calendar_add.png" alt="#">Book Now</button>
-                    </div>
-                </form>
-            </div>
-            <div class="docs">
-                <form action="#">
-                    <div class="doc-card">
-                        <div class="user">
-                            <div class="main">
-                                <img src="./images/doctor2NEW.jpg" alt="Doctor 1">
-                                <div class="info">
-                                    <h3>Dr. Leo Petal</h3>
-                                    <p>Pediatrician, 25 yrs of experience</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="rate"><img src="./images/star_rate.svg" alt="#">4.9/5 (415 reviews)</p>
-                        <button class="btn"><img src="./images/calendar_add.png" alt="#">Book Now</button>
-                    </div>
-                </form>
-            </div>
-            <div class="docs">
-                <form action="#">
-                    <div class="doc-card">
-                        <div class="user">
-                            <div class="main">
-                                <img src="./images/doctor3NEW.jpg" alt="Doctor 1">
-                                <div class="info">
-                                    <h3>Dr. Derick Nguyen</h3>
-                                    <p>Dermatologist, 9 yrs of experience</p>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="rate"><img src="./images/star_rate.svg" alt="#">4.8/5 (210 reviews)</p>
-                        <button class="btn"><img src="./images/calendar_add.png" alt="#">Book Now</button>
-                    </div>
-                </form>
-            </div>
+
+        <div class="top">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M440-240v-368L296-464l-56-56 240-240 240 240-56 56-144-144v368h-80Z"/></svg></a>
         </div>
     </div>
 
-    <div class="book">
-        <form action="#">
-            <div class="note">
-                <h3>Ready to book a consultatin?</h3>
-                <p>Choose a doctor, pick a time and secure your consultation instantly.</p>
+    <footer>
+        <div class="foot-container">
+            <div class="foot-table">
+                <table>
+                    <tr>
+                        <td><a href="#"><h2><img src="./images/favicon_io/android-chrome-192x192.png" alt="">Aegis Health</h2></a></td>
+                        <td><p>Connecting patients with professional healthcare providers. Secure, simple and fast</p></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td><a href="#">Find a Doctor</a></td>
+                        <td><a href="#">Services</a></td>
+                        <td><a href="#">About Us</a></td>
+                        <td><a href="#">Connect</a></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><a href="#">Help Center</a></td>
+                        <td><a href="#">Privacy Policy</a></td>
+                        <td><a href="#">Terms of Service</a></td>
+                        <td><a href="#">Accessibility</a></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><a href="mailto:support@aegis.com">support@aegis.com</a></td>
+                        <td><a href="#">+1 (555)123-4567</a></td>
+                        <td>&copy; 2025 Aegis Healthcare</td>
+                    </tr>
+                </table>
             </div>
-            <button type="submit" class="btn"><img src="./images/calendar_add.png" alt="">Book a consultation</button>
-        </form>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
