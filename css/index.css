@@ -489,7 +489,9 @@ footer table td img {
 
     header {
         position: fixed;
-        width: 98vw;
+        top: 0;
+        left: 0;
+        width: 100vw;
         flex-direction: column;
         padding: 20px 5px 20px;
         border-radius: 0;
@@ -501,6 +503,12 @@ footer table td img {
         align-items: center;
         justify-content: flex-start;
         width: 100%;
+    }
+
+    header .navigation {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     header .navigationn {
@@ -712,7 +720,7 @@ footer table td img {
     }
 
     footer p {
-        width: 415px;
+        width: 400px;
     }
 
     footer .foot-container .foot-table {
