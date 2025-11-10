@@ -24,6 +24,26 @@ h4 {
     color: #0b3140;
 }
 
+.about .sponsors {
+    overflow: hidden;
+}
+
+.about .sponsors .icons {
+    position: relative;
+    white-space: nowrap;
+    animation: move-left 10s linear infinite;
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 .btn {
     border: none;
     outline: none;
@@ -330,7 +350,7 @@ h3 {
 
 .about p {
     line-height: 25px;
-    width: 1080px;
+    width: 95vw;
 }
 
 .about .sponsors .icons {
@@ -692,8 +712,8 @@ footer table td img {
     }
 
     footer p {
-    width: 415px;
-}
+        width: 415px;
+    }
 
     footer .foot-container .foot-table {
         flex-direction: column;
