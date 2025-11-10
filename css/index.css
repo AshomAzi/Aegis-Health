@@ -403,7 +403,7 @@ h3 {
 .top {
     position: fixed;
     right: 20px;
-    top: 60vh;
+    top: 80vh;
     bottom: 20px;
     background-color: #0b78a8;
     width: 40px;
@@ -600,7 +600,8 @@ footer table td img {
     }
 
     .consultants .docs .doc-card {
-        width: 370px;
+        width: 380px;
+        padding: 15px;
     }
 
     .book {
@@ -686,7 +687,8 @@ footer table td img {
     }
 
     footer {
-        width: 95vw;
+        width: 98vw;
+        font-size: 15px;
     }
 
     footer p {
