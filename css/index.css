@@ -492,7 +492,7 @@ footer table td img {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100vw;
+        width: 98vw;
         flex-direction: column;
         padding: 20px 5px 20px;
         border-radius: 0;
@@ -590,11 +590,9 @@ footer table td img {
         font-size: 13px;
     }
 
-
     .hero .content {
         padding: 0;
     }
-
 
     .hero .content .search h1 {
         margin: 20px 0 0;
@@ -631,10 +629,10 @@ footer table td img {
     }
 
     .consultants .doctors {
-        justify-content: center;
+        justify-content: flex-start;
     }
     .consultants .docs .doc-card {
-        width: 360px;
+        width: 350px;
         padding: 15px;
     }
 
@@ -726,7 +724,7 @@ footer table td img {
     }
 
     footer p {
-        width: 400px;
+        width: 80%;
     }
 
     footer .foot-container .foot-table {
