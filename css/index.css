@@ -462,6 +462,7 @@ footer * {
 footer h2 {
     font-size: 1.5em;
     margin-bottom: 15px;
+    display: inline-block;
 }
 
 footer p {
@@ -574,13 +575,15 @@ footer table td img {
     }
 
     .hero .img {
-        padding: 20px;
-        border-radius: 50px;
+        width: 90%;
+        padding: 10px 10px 20px;
+        border-radius: 30px;
         text-align: center;
     }
 
     .hero .img img {
-        width: 370px;
+        width: 100%;
+        border-radius: 40px;
     }
 
     .hero .img .trust {
@@ -627,6 +630,9 @@ footer table td img {
         border-radius: 20px;
     }
 
+    .consultants .doctors {
+        justify-content: center;
+    }
     .consultants .docs .doc-card {
         width: 360px;
         padding: 15px;
@@ -715,7 +721,7 @@ footer table td img {
     }
 
     footer {
-        width: 98vw;
+        width: 96vw;
         font-size: 15px;
     }
 
